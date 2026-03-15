@@ -6,7 +6,7 @@ Software Engineer • Building secure and high-performance systems
 
 <p align="center">
 <a href="https://kuhlenlabs.web.id">Website</a> •
-<a href="https://linkedin.com/in/ajiperwira">LinkedIn</a>
+<a href="https://www.linkedin.com/in/aji-perwira/">LinkedIn</a>
 </p>
 
 ---
