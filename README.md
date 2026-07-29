@@ -1,7 +1,7 @@
 <h1 align="center">Aji Yudha Perwira</h1>
 
 <p align="center">
-Software Engineer • Building secure and high-performance systems
+Software Engineer • Industrial systems, ERP, and desktop tooling
 </p>
 
 <p align="center">
@@ -11,11 +11,11 @@ Software Engineer • Building secure and high-performance systems
 
 ---
 
-I build software that stays reliable when systems are under real pressure.
+I write software that has to keep working in places where the network is bad and there is nobody around to restart things.
 
-My path into engineering started on the infrastructure side of technology — IT Support, System Administration, and DevOps — before transitioning fully into software development. Because of that background, I design systems with a strong focus on reliability, performance, and production stability.
+I started in IT support, then system administration and DevOps, and moved into software development from there. That order shaped how I work. I spent a few years being the person who gets called when production breaks, so I think about how something runs before I think about how it is written.
 
-Today I mostly work with modern tooling focused on performance and maintainability.
+Lately most of my work sits close to hardware: serial ports, weighbridges, race timing sensors, and the web and desktop apps that sit on top of them.
 
 ---
 
@@ -27,15 +27,19 @@ Python • TypeScript • Rust
 
 **Web**
 
-SvelteKit • Leptos
+SvelteKit • Leptos • WASM • Odoo
 
 **Cross-platform**
 
-Tauri
+Tauri • Flutter • PySide
+
+**Hardware & Protocols**
+
+RS232 Serial • Web Serial API • MQTT • WebSocket • Arduino • Raspberry Pi
 
 **Infrastructure**
 
-Linux • Docker • Nginx • Google Cloud
+Linux • Docker • Nginx • Google Cloud • WireGuard • GitHub Actions
 
 **Databases**
 
@@ -45,18 +49,40 @@ PostgreSQL • SQLite • MongoDB
 
 ## Featured Work
 
-**Weighbridge Data Pipeline**
+**Gokart RMS**<br>
+`Rust · Tauri 2 · Leptos`
 
-Real-time industrial data pipeline connecting physical weighbridge hardware to a web application.  
-Built a desktop client capturing serial port data and streaming it to the system using MQTT.
+Race timing and leaderboard system for Funderland Indonesia, running at their Medan track. It started as an Angular app reading a lap sensor through the Web Serial API. I rebuilt it as a native desktop app with two windows, one for the operator and one for the trackside display, with SQLite bundled in.
 
-**OSRM Routing Server**
+**Weighbridge Data Pipeline**<br>
+`MQTT · RS232 · Flutter · Go`
 
-Self-hosted routing infrastructure deployed on government servers, replacing Google Maps API usage and eliminating recurring routing costs.
+Moves live weight readings from weighbridge hardware into the ERP web app. REST and WebSocket both fell apart on plantation networks, so I moved the transport to MQTT, and later to MQTT over WebSocket so the middleware service was no longer required at all. Stress tested with Clumsy at 2000ms latency, 30% packet loss and 5KB/s bandwidth. Readings still arrived.
 
-**KuhlenLab**
+**Palm Scale**<br>
+`SvelteKit · Web Serial API · PostgreSQL`
 
-Collection of experimental tools, utilities, and web applications.
+A weighbridge management system that runs in the browser. It reads RS232 scale data directly through the Web Serial API, so there is no desktop middleware to install and keep updated on every mill PC, and it keeps recording when the connection to the server drops.
+
+**Pixlet**<br>
+`Rust · Leptos · WASM`
+
+Image converter that runs entirely in the browser. JPG, PNG, WebP, GIF, BMP and TIFF. Nothing gets uploaded anywhere, which is good for privacy and also means it costs nothing to host.
+
+**Port Monitor**<br>
+`Rust · Tauri 2 · Leptos`
+
+A serial port debugger I built because I got tired of guessing what a scale was actually sending. Auto-detects USB, Bluetooth and PCI ports, shows live readings with millisecond timestamps, and filters by offset, length and excluded characters. Ships for Linux, Windows and macOS.
+
+**Self-hosted OSRM**<br>
+`OSRM · Linux · Nginx`
+
+Routing server for a public bus tracking app, deployed on a provincial government infrastructure. The original plan was the Google Maps API. Self-hosting avoided roughly $500 a month in routing costs once usage scaled.
+
+**KuhlenLabs**<br>
+[kuhlenlabs.web.id](https://kuhlenlabs.web.id)
+
+My site. Eleven case studies with the longer version of the work above, plus the Odoo ERP suite and the GCP infrastructure I ran for a second-hand marketplace.
 
 ---
 
@@ -70,5 +96,5 @@ Collection of experimental tools, utilities, and web applications.
 ---
 
 <p align="center">
-Always open to interesting projects and conversations.
+Available for freelance work. Always open to interesting projects and conversations.
 </p>
