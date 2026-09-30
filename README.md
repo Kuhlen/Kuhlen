@@ -1,4 +1,4 @@
-<h1 align="center">Aji Yudha Perwira</h1>
+
 
 <p align="center">
 Software Engineer • Industrial systems, ERP, and desktop tooling
