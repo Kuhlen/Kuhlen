@@ -4,9 +4,9 @@
 Software Engineer • Industrial systems, ERP, and desktop tooling
 </p>
 
-<p align="center">
+<!-- <p align="center">
 <a href="https://kuhlenlabs.web.id">Website</a> •
-<a href="https://www.linkedin.com/in/aji-perwira/">LinkedIn</a>
+<a href="https://www.linkedin.com/in/aji-perwira/">LinkedIn</a> -->
 </p>
 
 ---
@@ -78,9 +78,6 @@ A serial port debugger I built because I got tired of guessing what a scale was 
 `OSRM · Linux · Nginx`
 
 Routing server for a public bus tracking app, deployed on a provincial government infrastructure. The original plan was the Google Maps API. Self-hosting avoided roughly $500 a month in routing costs once usage scaled.
-
-**KuhlenLabs**<br>
-[kuhlenlabs.web.id](https://kuhlenlabs.web.id)
 
 My site. Eleven case studies with the longer version of the work above, plus the Odoo ERP suite and the GCP infrastructure I ran for a second-hand marketplace.
 
