@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi, I'm Aji.
 
-<!--
-**Kuhlen/Kuhlen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a software engineer from Indonesia. I build software with Python, TypeScript, Go, and Rust..
 
-Here are some ideas to get you started:
+## What I'm working on
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [mokami](https://github.com/Kuhlen/reqly): a native desktop HTTP client. Collections are plain YAML files.
+
+## Tools I use
+
+- **Languages:** Rust, Python, TypeScript, Go
+- **Web:** Svelte, Leptos
+- **Desktop & mobile:** Slint
+- **ERP:** Odoo
+
+## How to reach me
+
+Email me at [ajiperwira@outlook.com](mailto:ajiperwira@outlook.com).
